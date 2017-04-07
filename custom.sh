@@ -1,5 +1,9 @@
 #/bin/bash
 
+echo "Instalando HTOP"
+
+apt-get install htop -y
+
 echo "Copiando .bashrc"
 
 cp ./bashrcroot /root/.bashrc

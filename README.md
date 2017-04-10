@@ -25,6 +25,7 @@ Similar a apt-get update pero con la salida estándar simplificada. Uso:
 ### upgrade e install
 
 Similares a apt-get ugrade y apt-get install, con la diferencia de que haremos un apt-get update antes de cada uno de ellos para asegurarnos de que tenemos los repositorios actualizados. Su uso es el siguiente:
+
 	upgrade
 	install paquete_a_instalar
 

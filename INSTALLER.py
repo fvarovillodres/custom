@@ -31,7 +31,7 @@ print("----------------------------------------------")
 print (" Instalando y configurando ZSH y Oh my Zsh!")
 
 os.system('apt-get install zsh')
-os.system('curl -L http://install.ohmyz.sh \| sh')
+os.system('curl -L http://install.ohmyz.sh | sh')
 os.system('cp ./.zshrc /root/.zshrc')
 os.system('chsh -s /bin/zsh')
 

@@ -19,7 +19,7 @@ os.system('cp ./upgrade /usr/local/bin/upgrade')
 print("----------------------------------------------")
 print (" Instalando comando ips")
 
-os.system('cp ./ips /usr/local/bin/ips')
+os.system('cp ./ips.sh /usr/local/bin/ips')
 
 print("----------------------------------------------")
 print ("Instalado HTOP")

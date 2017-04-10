@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 
-
-apt-get update && apt-get install $@
+echo "Actualizando lista de repositorios..." && apt-get update >/dev/null && apt-get install $@

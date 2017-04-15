@@ -16,6 +16,12 @@ Este comando nos mostrará cada tarjeta de red con su correspondiente IP y su MA
 
 	ips
 
+### redtest
+
+Este comando este comando hará una prueba de conexión con el comando ping para comprobar que podemos alcanzar nuestra Gateway e Internet. Además probará nuestra configuración DNS. Uso:
+
+	redtest
+
 ### update
 
 Similar a apt-get update pero con la salida estándar simplificada. Uso:

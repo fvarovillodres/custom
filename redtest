@@ -1,0 +1,19 @@
+#/bin/bash
+
+#Este comando probara la conectividad de nuestra maquina mediante el comando ping
+
+gw=`ip route show | grep default | awk {'print $3'}`
+
+echo "Probando conexion a la Gateway:"
+
+ping -w1 -c1 $gw >/dev/null 2>&1 && echo "Conectividad con la Gateway correcta" || echo "ERROR: No se ha podido conectar con la Gateway"
+
+echo "---------------------"
+echo "Probando conexion a Internet:"
+
+ping -w1 -c1 8.8.8.8 >/dev/null 2>&1 && echo "Salida a Internet correcta" || echo "ERROR: No se ha podido salir a Internet"
+
+echo "---------------------"
+echo "Probando configuracion de DNS:"
+
+ping -w1 -c1 google.com >/dev/null 2>&1 && echo "Configuracion DNS correcta" || echo "ERROR: Configuracion DNS erronea"

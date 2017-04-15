@@ -22,6 +22,11 @@ print (" Instalando comando ips")
 os.system('cp ./ips.sh /usr/local/bin/ips')
 
 print("----------------------------------------------")
+print (" Instalando comando redtest")
+
+os.system('cp ./redtest /usr/local/bin/redtest')
+
+print("----------------------------------------------")
 print ("Instalado HTOP")
 
 os.system('update')

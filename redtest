@@ -1,5 +1,4 @@
-#/bin/bash
-
+#!/usr/bin/env bash
 #Este comando probara la conectividad de nuestra maquina mediante el comando ping
 
 gw=`ip route show | grep default | awk {'print $3'}`

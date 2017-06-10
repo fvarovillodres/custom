@@ -12,7 +12,9 @@ Ejecutar el custom.sh como root
 
 ### ips
 
-Este comando nos mostrará cada tarjeta de red con su correspondiente IP y su MAC. Además nos dirá el Gateway y el DNS de nuestra máquina. Uso:
+Este comando nos mostrará cada tarjeta de red con su correspondiente IP y su MAC. Además nos 
+dirá el Gateway y el DNS de nuestra máquina. IMPORTANTE, si usas una distribución basada en 
+Arch Linux, cambia el script ips.sh por el de ips_arch.sh. Uso:
 
 	ips
 

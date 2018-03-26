@@ -1,4 +1,6 @@
 # CUSTOMIZACIÓN
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffvarovillodres%2Fcustom.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffvarovillodres%2Fcustom?ref=badge_shield)
+
 
 Algunos comandos simples para simplificar la vida en la terminal al root. Cambiamos el bash por zsh. También puedes modificar los scrips para usarlos como usuario normal.
 
@@ -50,3 +52,7 @@ Para el tema que uso en este caso necesitaras instalar algunos simbolos especial
 	mkdir -p .config/fontconfig/conf.d #if directory doesn't exists
 	fc-cache -vf ~/.fonts/
 	mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffvarovillodres%2Fcustom.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffvarovillodres%2Fcustom?ref=badge_large)
